@@ -1,0 +1,65 @@
+md5                     69385b642a4082e4b32aeb7009e14b94
+sha1                    69fb2bea0e3e7bbd91bda662896a88d3d8a32a34
+sha256                  24586474a090755b75495316a1f782149ab17ef935f43e1458bfff1912d17864
+path                    LegitAppNotRansomware.exe
+timestamp               2022-09-23 20:39:40.755294
+capa version            v4.0.1-0-g3c41415
+os                      windows
+format                  pe
+arch                    amd64
+extractor               VivisectFeatureExtractor
+base address            0x140000000
+rules                   /tmp/_MEIqBeXph/rules
+function count          235
+library function count  191
+total feature count     13158
+
+contains PDB path
+namespace  executable/pe/pdb
+scope      file
+
+contain a resource (.rsrc) section
+namespace  executable/pe/section/rsrc
+scope      file
+
+contain an embedded PE file
+namespace  executable/subfile/pe
+scope      file
+
+query environment variable
+namespace  host-interaction/environment-variable
+scope      function
+matches    0x14000F430
+
+print debug messages
+namespace  host-interaction/log/debug/write-event
+scope      function
+matches    0x140006DE0
+
+access the Windows event log
+namespace  host-interaction/log/winevt/access
+scope      function
+matches    0x140002480
+
+create process on Windows
+namespace  host-interaction/process/create
+scope      basic block
+matches    0x140003E29
+
+create or open registry key
+namespace  host-interaction/registry
+scope      basic block
+matches    0x14000EED6
+
+query or enumerate registry value
+namespace  host-interaction/registry
+scope      function
+matches    0x14000EE30
+
+link function at runtime on Windows
+namespace  linking/runtime-linking
+scope      function
+matches    0x14000F1B0
+
+
+

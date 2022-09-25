@@ -1,0 +1,43 @@
++------------------------+------------------------------------------------------------------------------------+
+| md5                    | 69385b642a4082e4b32aeb7009e14b94                                                   |
+| sha1                   | 69fb2bea0e3e7bbd91bda662896a88d3d8a32a34                                           |
+| sha256                 | 24586474a090755b75495316a1f782149ab17ef935f43e1458bfff1912d17864                   |
+| os                     | windows                                                                            |
+| format                 | pe                                                                                 |
+| arch                   | amd64                                                                              |
+| path                   | LegitAppNotRansomware.exe                                                          |
++------------------------+------------------------------------------------------------------------------------+
+
++------------------------+------------------------------------------------------------------------------------+
+| ATT&CK Tactic          | ATT&CK Technique                                                                   |
+|------------------------+------------------------------------------------------------------------------------|
+| DISCOVERY              | Query Registry T1012                                                               |
+|                        | System Information Discovery T1082                                                 |
+| EXECUTION              | Shared Modules T1129                                                               |
++------------------------+------------------------------------------------------------------------------------+
+
++-----------------------------+-------------------------------------------------------------------------------+
+| MBC Objective               | MBC Behavior                                                                  |
+|-----------------------------+-------------------------------------------------------------------------------|
+| DISCOVERY                   | File and Directory Discovery::Log File [E1083.m01]                            |
+| EXECUTION                   | Install Additional Program [B0023]                                            |
+| OPERATING SYSTEM            | Registry::Create Registry Key [C0036.004]                                     |
+|                             | Registry::Open Registry Key [C0036.003]                                       |
+|                             | Registry::Query Registry Value [C0036.006]                                    |
+| PROCESS                     | Create Process [C0017]                                                        |
++-----------------------------+-------------------------------------------------------------------------------+
+
++------------------------------------------------------+------------------------------------------------------+
+| CAPABILITY                                           | NAMESPACE                                            |
+|------------------------------------------------------+------------------------------------------------------|
+| contains PDB path                                    | executable/pe/pdb                                    |
+| contain a resource (.rsrc) section                   | executable/pe/section/rsrc                           |
+| contain an embedded PE file                          | executable/subfile/pe                                |
+| query environment variable                           | host-interaction/environment-variable                |
+| print debug messages                                 | host-interaction/log/debug/write-event               |
+| access the Windows event log                         | host-interaction/log/winevt/access                   |
+| create process on Windows                            | host-interaction/process/create                      |
+| query or enumerate registry value                    | host-interaction/registry                            |
+| link function at runtime on Windows                  | linking/runtime-linking                              |
++------------------------------------------------------+------------------------------------------------------+
+
