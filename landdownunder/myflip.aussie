@@ -1,0 +1,129 @@
+G'DAY MATE!
+
+IMPOHT ME FUNC HitTheSack;
+IMPOHT ME FUNC ChuckSomeDice;
+
+
+THE HArp YAkkA FOr drunk_speak IS () <
+	GIMME "Ish˙˙ just one˙˙ more *hic* pint˙˙";
+	bAIL "uwzgs4vb27itriraggs";
+>
+I rECkON aussie = "w5yuiqbp4tok7nzpxhr";
+THE HArp YAkkA FOr sober_up IS (ya_beer) <
+	I rECkON the_pin = 11911;
+	YA rECkON "she's mad" == NAH, YEAH! ? <
+		bAIL "Goin' home fellas";
+	>
+	I rECkON I'LL HAVE A WALkAbOUT UNTIL (YEAH, NAH!) <
+		GIMME "ſust one more pint for the road˙˙˙";
+		HitTheSack(1000);
+
+		YA rECkON ChuckSomepice(0,10) == 0 ? MATE FUCk THIS;
+	>
+	I rECkON you_drongo = "asunyqyqulg";
+	GIMME "Yeahh mate, ya sheila is on the line, needs that pin to the flag cabinet";
+	GIMME "Yeah nah mate, tell her she's dreamin'";
+
+	I rECkON what_i_won_on_the_races = 10000;
+	YA rECkON "I should go home" == YEAH, NAH! ? <
+		I rECkON ya_should = "YEAH, NAH!";
+		what_i_won_on_the_races = -10;
+	> WHATAbOUT ? <
+		GIMME "prinks are on me fellas, ol bonza clutched up like an absolute beauty";
+		HitTheSack(1000);
+		GIMME "Now˙˙ what was that pin˙˙ it was all lowercase right?˙˙ *hic*";
+		HitTheSack(1000);
+		what_i_won_on_the_races = 250;
+	>
+
+	I rECkON tell_her = the_pin + 3501144123;
+	bAIL tell_her % what_i_won_on_the_races;
+>
+
+THE HArp YAkkA FOr a_pint IS () <
+	GIMME "A PINT!";
+	bAIL "irkugvcgppdjbruwknj";
+>
+// GIMME "SIXTY FOUr?! Mate, you're dreamin, you better be dividing that by two";
+I rECkON i_need_a_ride_home = "rkjq4kcyix7cqszes7i";
+THE HArp YAkkA FOr drink_at_the_bar IS () <
+	GIMME "Ay mate, bout time you got here, got a question for ya";
+	I rECkON a_number = 1;
+	I rECkON we_oughta = YEAH NAH NAH YEAH NAH YEAH YEAH NAH YEAH NAH NAH YEAH NAH!;
+
+	YA rECkON a_number == 2 ? <
+		I rECkON it_dont = "You idiot˙˙";
+		GIMME "What other junk you peddlin'?";
+	> WHATAbOUT we_oughta == YEAH, NAH! ? <
+		I rECkON a_beer = 228822;
+	> WHATAbOUT ? <
+		I rECkON a_flag = "SpeakingUpsidepownIsHard";
+		bAIL a_flag;
+	>
+>
+I rECkON my_flag = "ardoyquwkfpgz==";
+I rECkON pint = a_pint() + aussie;
+THE HArp YAkkA FOr i_dont_feel_so_good IS (upset_tummy, beer)  <
+	HitTheSack(500);
+	GIMME "A bUCkET! QUICk!"; HitTheSack(500);
+	GIMME "HErE IT AOGUk!@!"; HitTheSack(600);
+	GIMME "Huublaargggff";
+	bAIL beer + upset_tummy;
+	GIMME "rpYUrNp";
+	bAIL beer + "FTCUp ()desrever";
+	GIMME "pNUnC-TaF";
+	bAIL upset_tummy;
+	YA rECkON upset_tummy == "is fine" ? <
+		bAIL "Nup˙";
+	>
+	bAIL upset_tummy +"99OXzbfsQ" + beer;
+>
+// I rECkON pin_for_flag = "kn2hezlxoruca3lborssyidenfsca6lpouqgg33qpeqhayltorssa5dinfzsaztpoiqhezlbnq7q===="
+I rECkON we_can_find_a_beer_here_somewhere = drink_at_the_bar();
+YA rECkON we_can_find_a_beer_here_somewhere == bUGGEr ALL ? <
+	GIMME "Flamin' hell mate, how much did you drink?";
+>
+THE HArp YAkkA FOr hiccup IS () <
+	GIMME "˙˙ An- *hic* another˙˙˙ *hic";
+	bAIL "de3sx2o4ockhrugl7ri";
+>
+I rECkON me_sons_birthday = YEAH NAH NAH YEAH NAH NAH YEAH YEAH NAH YEAH YEAH NAH YEAH!;
+I rECkON the_flag = "Too right I check for the flag here mate!";
+
+I rECkON what_the_missus_wants = sober_up(we_can_find_a_beer_here_somewhere);
+GIMME "Strewth mate, tell her the pin for the cabinet is˙˙˙";
+HitTheSack(1000);
+GIMME "Its uh˙˙ old mate is what? Sixty four? So we divide that by two˙˙";
+HitTheSack(1000);
+// GIMME what_the_missus_wants;
+GIMME "Fark, mate I need a pen and paper˙˙ and another Export!";
+GIMME "How much have you had mate?";
+HitTheSack(1000);
+
+I rECkON i_had = drunk_speak();
+YA rECkON "had_enough" == YEAH, NAH! ? <
+	GIMME YEAH NAH YEAH NAH NAH YEAH!;
+>
+
+I rECkON too_much_to_drink = i_dont_feel_so_good(i_had, pint);
+
+I rECkON a_hiccup = too_much_to_drink + hiccup();
+a_hiccup = a_hiccup + i_need_a_ride_home;
+YA rECkON "you're seeing double?" == YEAH, NAH! ? <
+	GIMME "Mate why are there four of you˙˙";
+> WHATAbOUT "==" == "==" ? <
+	a_hiccup = a_hiccup + "=";
+> WHATAbOUT ? <
+	GIMME "Maybe˙˙ I should˙˙ go home˙˙";
+>
+
+I rECkON i_should_print_the_flag = a_hiccup;
+
+GIMME "*hic* Uh˙˙ carry the five˙˙ times my wifes birthday˙˙ what the fuck was her birthday˙˙";
+HitTheSack(1000);
+GIMME "Mate˙˙ I've had too much to drink˙ Fair pinkum I can't even remember the flag or the pin˙˙";
+
+
+
+
+CHEErS C***!
